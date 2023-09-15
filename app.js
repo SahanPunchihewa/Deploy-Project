@@ -4,6 +4,7 @@ const app = express();
 
 app.get('/', (req,res)=> {
     res.send('<h1>My Node App</h1>');
+    res.send('<h1>My Node App Updated</h1>');
 });
 
 
